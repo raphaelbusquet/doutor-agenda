@@ -19,5 +19,5 @@
 - [x] Página de médicos
 - [x] Criação de médicos & NextSafeAction
 - [x] Listagem de médicos
-- [] Atualização de médicos
+- [x] Atualização de médicos
 - [] Deleção de médicos

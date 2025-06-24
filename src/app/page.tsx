@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import { Button } from "@/components/ui/button";
+
+export default function Home() {
+  return <Button>Bootcamp!</Button>;
+}
+=======
 import { Button } from "@/components/ui/button"
 
 const Home = () => {
@@ -7,3 +14,4 @@ const Home = () => {
 }
  
 export default Home;
+>>>>>>> main

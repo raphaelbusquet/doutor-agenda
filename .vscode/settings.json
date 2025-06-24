@@ -12,6 +12,10 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
+<<<<<<< HEAD
+  }
+=======
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode"
+>>>>>>> main
 }

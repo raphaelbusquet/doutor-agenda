@@ -1,7 +1,6 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-<<<<<<< HEAD
 import { Manrope } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
@@ -10,17 +9,6 @@ import { ReactQueryProvider } from "@/providers/react-query";
 
 const manrope = Manrope({
   variable: "--font-manrope",
-=======
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
->>>>>>> main
   subsets: ["latin"],
 });
 
@@ -36,18 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-<<<<<<< HEAD
       <body className={`${manrope.variable} antialiased`}>
         <ReactQueryProvider>
           <NuqsAdapter>{children}</NuqsAdapter>
         </ReactQueryProvider>
         <Toaster position="bottom-center" richColors theme="light" />
-=======
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
->>>>>>> main
       </body>
     </html>
   );
